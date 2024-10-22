@@ -33,7 +33,7 @@ export default function Hero() {
                     <div class="mr-10">
                         <img
                             class="rounded-lg min-w-[100px] w-full h-auto"
-                            src="src\assets\images\hero_img.jpg"
+                            src="assets/images/hero_img.jpg"
                             alt="image of myself"
                         />
                     </div>

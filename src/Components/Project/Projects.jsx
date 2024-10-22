@@ -75,19 +75,19 @@ export default function Projects() {
 
 
                         <div className="keen-slider__slide">
-                            <Project img="src/assets/projects/spendara.jpg" title="Spendara" detail="Expense Management Application"/>
+                            <Project img="assets/projects/spendara.jpg" title="Spendara" detail="Expense Management Application"/>
                         </div>
 
                         <div className="keen-slider__slide">
-                            <Project img="src/assets/projects/quik.jpg" title="Quiks" detail="A web application to read/listen to shortbooks"/>
+                            <Project img="assets/projects/quik.jpg" title="Quiks" detail="A web application to read/listen to shortbooks"/>
                         </div>
 
                         <div className="keen-slider__slide">
-                            <Project img="src/assets/projects/eclerx.jpg" title="eClerx Digital" detail="A Digital service and blogging site"/>
+                            <Project img="assets/projects/eclerx.jpg" title="eClerx Digital" detail="A Digital service and blogging site"/>
                         </div>
 
                         <div className="keen-slider__slide">
-                            <Project img="src/assets/projects/spendara_landing.jpg" title="Spendara Landing" detail="An expense tracking app landing page"/>
+                            <Project img="assets/projects/spendara_landing.jpg" title="Spendara Landing" detail="An expense tracking app landing page"/>
                         </div>
 
                         {/* Add more slides as needed */}

@@ -16,8 +16,8 @@ export default function Experince() {
           <span className='bg-gradient-to-r from-[#E1D9F1] to-[#E1D9F1] bg-clip-text text-[transparent]'>Experience</span>
         </h2>
 
-        <ExperienceSingle title="Intern Developer" company="Ibexoft" tenure="Jul 2024 - Present" description={descriptions[0]} image="src\assets\experience\ibexoft.png" size="md:w-[35px] w-[45px] md:h-[35px] h-[45px]" />
-        <ExperienceSingle title="Junior Web Developer" company="Intrazix" tenure="April 2023 - Oct 2023" description={descriptions[1]} image="src\assets\experience\intrazix.png" size="md:w-[25px] w-[35px] md:h-[25px] h-[35px]" />
+        <ExperienceSingle title="Intern Developer" company="Ibexoft" tenure="Jul 2024 - Present" description={descriptions[0]} image="assets/experience/ibexoft.png" size="md:w-[35px] w-[45px] md:h-[35px] h-[45px]" />
+        <ExperienceSingle title="Junior Web Developer" company="Intrazix" tenure="April 2023 - Oct 2023" description={descriptions[1]} image="assets/experience/intrazix.png" size="md:w-[25px] w-[35px] md:h-[25px] h-[35px]" />
       </div>
     </>
   )
