@@ -1,23 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Contact from "./Components/Contact/Contact"
+import Experince from "./Components/Experience/Experince"
+import Heading from "./Components/Heading"
+import Hero from "./Components/Hero"
+import Projects from "./Components/Project/Projects"
+import Technologies from "./Components/Technologies"
+import CustomerReviews from "./Components/Temp"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Coming Soon...</h1>
-      <div className="card">
-        <a href="https://www.linkedin.com/in/hamzabham/" target='_blank'>
-          <button>
-            Go to my linkedin
-          </button>
-        </a>
+      <div id="Home">
+        <Hero />
+        <Technologies />
+        <Projects />
+        <Experince />
+        <Contact />
       </div>
     </>
   )
 }
-
 export default App
